@@ -72,11 +72,11 @@ Service monitores all the registered microservice. It probs the registered micro
 
 ## Deployement:
 ### Build :
-	$>mvn clean build
+	$>mvn clean install
 ### Run
 -Go to target folder.		
 					
-	$> java -jar monitoringservice-0.0.1-SNAPSHOT.jar  	
+	$> java -jar monitoringapp-0.0.1-SNAPSHOT.jar  	
 
 ## Proxy Configuration:
 To configure the proxy, set the following properties in `application.properties`
