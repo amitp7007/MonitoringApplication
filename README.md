@@ -1,4 +1,4 @@
-# Monitoring Service!
+# Monitoring Service
 Service monitores all the registered microservice. It probs the registered microservices at each 15 seconds and save the status of each microservice into the **inMemory** Database. If client request for status within 5 second of scheduled probe, **Monitoring** **service** returns the saved status otherwise it probe the requested microservice url to get the current status.
 
 ## Rest Endpoints
